@@ -16,6 +16,20 @@ This is essential if you:
 
 If all of the above has happened to you, you're welcome!
 
+## Usage
+
+Thanks to Microsoft, setting this up couldn't be easier.
+
+First, download the [Release](https://github.com/adamsoutar/unicomp-windows/releases) and run `setup.exe`.
+
+(No, I don't know why keyboard layouts are in executables either. Or why they're dependent on CPU architecture.)
+
+Open `Settings -> Time & Language`, then press the tiny `...` button on `English (United Kingdom)`, then `Language Options` (naturally where you would expect to find Keyboard Layouts).
+
+Now press `Add a keyboard`, select `United Kingdom - Unicomp Model M Mac`, and remove your old keyboard layout.
+
+If the Unicomp option isn't there, restart the Settings app until it appears.
+
 ## Mac text cursor
 
 I recommend using this layout in combination with the following [PowerToys](https://github.com/microsoft/PowerToys) key remap:
@@ -23,6 +37,10 @@ I recommend using this layout in combination with the following [PowerToys](http
 <img src="./powertoys.png" width="350">
 
 which gives you Cmd+Left/Right and Cmd+Up/Down for moving the cursor while programming.
+
+## Further editing
+
+If you want to remap things further, open the `klc` file from this repo in [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134).
 
 ---
 
